@@ -1,0 +1,90 @@
+/*
+Pre-Requisites
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Page Styling
+*/
+
+
+body {
+  margin-block: 20px;
+}
+
+/*
+main
+*/
+#main {
+  background-color: #edebeb;
+  font-family: 'Lato', sans-serif;
+}
+
+#title{
+  text-align: center;
+}
+
+/*
+image and caption
+*/
+
+#img-div {
+  background-color: #fcfcfc;
+  margin: auto;
+  width: 98%;
+  text-align: center;
+}
+
+
+#img-div #image {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+
+/*
+Tribute Info
+*/
+
+#tribute-info {
+  justify-content: center;
+  margin: 5% 20%;
+}
+
+#tribute-info h2{
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+#tribute-info ul {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: lighter;
+  width: 95%;
+  margin: auto;
+}
+
+
+/*
+Quotes
+*/
+
+#tribute-info .quote {
+  margin: 75px 0;
+  width: 85%;
+}
+
+#tribute-info .quoted{
+  margin-top: 45px;
+}
+
+/*Tribute Link*/
+
+#tribute-link {
+  text-align: center;
+}
